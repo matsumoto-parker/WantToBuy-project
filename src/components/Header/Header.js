@@ -20,7 +20,10 @@ export default function Header() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar
+        position="static"
+        style={{ color: '#fff', backgroundColor: '#f57c00' }}
+      >
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
             WantToBuyList
