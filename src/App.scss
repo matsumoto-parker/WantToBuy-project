@@ -9,9 +9,8 @@
 .footer {
   display: flex;
   justify-content: center;
-}
-
-.footer__link {
-  color: #333;
-  margin-right: 20px;
+  &__link {
+    color: #333;
+    margin-right: 20px;
+  }
 }
