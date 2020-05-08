@@ -1,5 +1,6 @@
 import React from 'react';
 import bird from '../../img/bird.jpeg';
+import './Item.scss';
 
 const Item = () => {
   return (
